@@ -1,0 +1,89 @@
+// Weblog Configuration
+
+;; About your weblog
+;; -----------------
+
+Weblog title: sanel's internet den
+Weblog description: a calm, safe place for me to share my thoughts
+Author: sanel
+Canonical domain: blog.sanel.page
+
+
+;; General config stuff
+;; --------------------
+
+Landing page: welcome
+Separator:  · 
+Navigation: [<i class="fa-solid fa-globe"></i> website](https://sanel.page), [<i class="fa-solid fa-cart-shopping"></i> shop](https://shop.sanel.page), [<i class="fa-solid fa-clipboard"></i> pastebin](https://paste.sanel.page), [<i class="fa-solid fa-link"></i> links](https://r.sanel.page), [<i class="fa-solid fa-computer"></i> my setup](/my-setup), [<i class="fa-solid fa-rss"></i> subscribe](/subscribe), [<i class="fa-solid fa-dice"></i> random post](/random), [<i class="fa-solid fa-newspaper"></i> all posts](/all)
+Random post location: /random
+
+
+;; Time stuff
+;; ----------
+
+; You can use a timezone value from the "TZ database name" column on this 
+; web page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+Timezone: America/New_York
+Date format: F j, Y g:i A
+
+
+;; Feeds
+;; -----
+
+Feed post count: 25
+
+
+;; Posts
+;; -----
+
+Titleless title length: 7 words
+Post path format: /Y/m/d/
+
+Default post: <<[---
+Date: $date
+---
+
+# Welcome to my blog!
+
+Welcome! There's nothing currently here, but stay tuned, I'll be posting new content soon!]>>
+
+
+;; Recent posts {recent-posts}
+;; ---------------------------
+
+Recent posts count: 5
+Recent posts format: <<[
+<ul>
+[post:begin]<li><a href="$location">$title</a> - $date</li>[post:end]
+</ul>]>>
+
+
+;; Post list {post-list}
+;; ---------------------
+
+Post list format: <<[
+<ul>
+[post:begin]<li><a href="$location">$title</a> - $date</li>[post:end]
+</ul>]>>
+
+
+;; Search
+;; ------
+
+Search status: enabled
+Search template: No Recents
+Search results success message: There [is|are] $count [result|results] for your search:
+Search results failure message: There were no results found for your search. :(
+Search results format: <<[
+<h2>Results for “$search”</h2>
+<p>$search_results_message</p>
+[post:begin]<h3><a href="$location">$title</a> - $date</h3>[post:end]
+]>>
+
+
+;; Tags {tags}
+;; -----------
+
+Tag path: /tag/
+Tag page template: No Recents
