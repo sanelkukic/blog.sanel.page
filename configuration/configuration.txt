@@ -14,7 +14,7 @@ Canonical domain: blog.sanel.page
 
 Landing page: welcome
 Separator:  · 
-Navigation: [<i class="fa-solid fa-globe"></i> website](https://sanel.page), [<i class="fa-solid fa-cart-shopping"></i> shop](https://shop.sanel.page), [<i class="fa-solid fa-clipboard"></i> pastebin](https://paste.sanel.page), [<i class="fa-solid fa-link"></i> links](https://r.sanel.page), [<i class="fa-solid fa-computer"></i> my setup](/my-setup), [<i class="fa-solid fa-rss"></i> subscribe](/subscribe), [<i class="fa-solid fa-dice"></i> random post](/random), [<i class="fa-solid fa-newspaper"></i> all posts](/all)
+Navigation: [<i class="fa-solid fa-globe"></i> website](https://sanel.page), [<i class="fa-solid fa-cart-shopping"></i> shop](https://shop.sanel.page), [<i class="fa-solid fa-clipboard"></i> pastebin](https://paste.sanel.page), [<i class="fa-solid fa-link"></i> links](https://r.sanel.page), [<i class="fa-solid fa-computer"></i> my setup](/my-setup)
 Random post location: /random
 
 
