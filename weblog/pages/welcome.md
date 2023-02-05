@@ -6,7 +6,7 @@ Path: /
 Index: exclude
 ---
 
-<h1 style="color: #fabc02;">👋 hi there!</h1>
+<h1>👋 hi there!</h1>
 
 ***Welcome to my blog! 😄***
 
@@ -16,7 +16,7 @@ Here is where I occasionally post about _whatever_ is going on in my life at the
 - 🔎 you can also `search` for articles using the search box *(how cool ikr)*
 - 🎲 you can also click the [random posts](/random) link to be taken to a **random post**...
 - 🔢 ...or you can click the [archive](/archive) link to view a list of **every post** I've ever written!
-- 🏡 you can click the <i class="fa-solid fa-house fa-sm" style="color: #fabc02;"></i> **orange house icon** or the words **{weblog-title}** at the top to come back to this homepage at any time!
+- 🏡 you can click the <i class="fa-solid fa-house fa-sm"></i> **house icon** or the words **{weblog-title}** at the top to come back to this homepage at any time!
 - 📰 if you're familiar with rss, atom, or json, I have all of those feeds available for you to [subscribe](/subscribe) to!
 - 💻 ~~(completely unrelated btw)~~ lastly, if you want to view my setup, you can visit the [setup](/my-setup) page!
 

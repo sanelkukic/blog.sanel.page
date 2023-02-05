@@ -33,10 +33,10 @@ Title: No Recents
 @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
 
 :root {
-	--foreground: #fff;
+	--foreground: #000000;
 	--background: linear-gradient(313deg, #fecaca, #fde68a, #a7f3d0, #bfdbfe, #c7d2fe, #ddd6fe, #fbcfe8);
 	--link: #000000;
-	--accent: #fff;
+	--accent: #000000;
 }
 
 @-webkit-keyframes colours {
