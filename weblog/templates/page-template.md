@@ -215,7 +215,7 @@ input[type="text"] {
 <body>
 
 <header>
-	<h1 class="weblog-title"><a href="/"><i class="fa-solid fa-house fa-sm" style="color: #fabc02;"></i> {weblog-title}</a></h1>
+	<h1 class="weblog-title"><a href="/"><i class="fa-solid fa-house fa-sm"></i> {weblog-title}</a></h1>
         <i>{weblog-description}</I>
         <br><br>
 	{navigation}
