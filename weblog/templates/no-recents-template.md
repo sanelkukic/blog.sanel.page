@@ -14,8 +14,6 @@ Title: No Recents
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="weblog.lol"/>
 <meta property="og:type" content="website"/>
-<meta name="theme-color" content="#fabc02" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#fabc02" media="(prefers-color-scheme: dark)">
 <script src="https://js.cache.lol/snowstorm.js"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TC25Q5BLWG"></script>
@@ -36,18 +34,30 @@ Title: No Recents
 
 :root {
 	--foreground: #fff;
-	--background: #212121;
-	--link: #fabc02;
-	--accent: #fabc02;
+	--background: linear-gradient(313deg, #fecaca, #fde68a, #a7f3d0, #bfdbfe, #c7d2fe, #ddd6fe, #fbcfe8);
+	--link: #000000;
+	--accent: #fff;
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--foreground: #fff;
-		--background: #212121;
-		--link: #fabc02;
-		--accent: #fabc02;
-	}
+@-webkit-keyframes colours {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
+@-moz-keyframes colours {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
+@-o-keyframes colours {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
+@keyframes colours {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
 }
 
 * {
@@ -59,6 +69,11 @@ body {
 	font-size: 120%;
 	color: var(--foreground);
 	background: var(--background);
+	background-size: 1400% 1400%;
+	-webkit-animation: colours 15s ease infinite;
+	-moz-animation: colours 15s ease infinite;
+	-o-animation: colours 15s ease infinite;
+	animation: colours 15s ease infinite;
 }
 
 header nav ul {
