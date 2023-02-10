@@ -221,10 +221,6 @@ main {
 	box-shadow: var(--box-shadow);
 }
 
-.links-container {
-	padding: 1rem;
-}
-
 .links-div {
 	display: inline-block;
 }
@@ -254,8 +250,8 @@ main {
 
 {recent-posts}
 
-<div class="links-container">
-	<div class="links-container links-div">
+<div>
+	<div class="links-div">
 		<h2><i class="fa-solid fa-wand-magic-sparkles fa-sm"></i> view other posts</h2>
 
 		<ul>
@@ -264,7 +260,7 @@ main {
 			<li><a href="/subscribe"><i class="fa-solid fa-rss"></i> subscribe via atom/rss/json</a></li>
 		</ul>
 	</div>
-	<div class="links-container links-div">
+	<div class="links-div">
 		<h2><i class="fa-solid fa-magnifying-glass fa-sm"></i> search</h2>
 
 		<form action="?" method="get">
