@@ -222,15 +222,29 @@ main {
 }
 
 .links-div {
-	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
 }
 
-#otherposts {
-	float: left;
+.links-div {
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+	grid-auto-rows: min-content;
+	column-gap: 2em;
+	row-gap: 2em;
 }
 
-#search {
-	float: right;
+.links-item {
+	margin-left: 1em;
+	margin-right: 1em;
+	flex: 1 1 20em;
+}
+
+@supports (display: grid) {
+	.links-div > * {
+		margin: 0;
+	}
 }
 
 </style>
@@ -258,8 +272,8 @@ main {
 
 {recent-posts}
 
-<div>
-	<div class="links-div" id="otherposts">
+<div class="links-div">
+	<div class="links-item">
 		<h2><i class="fa-solid fa-wand-magic-sparkles fa-sm"></i> view other posts</h2>
 
 		<ul>
@@ -268,7 +282,7 @@ main {
 			<li><a href="/subscribe"><i class="fa-solid fa-rss"></i> subscribe via atom/rss/json</a></li>
 		</ul>
 	</div>
-	<div class="links-div" id="search">
+	<div class="links-item">
 		<h2><i class="fa-solid fa-magnifying-glass fa-sm"></i> search</h2>
 
 		<form action="?" method="get">
