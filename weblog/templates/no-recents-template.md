@@ -213,7 +213,7 @@ input[type="text"] {
 
 main {
 	display: block;
-	max-width: 30em;
+	max-width: 100em;
 	border-radius: 1em;
 	margin: 0 auto;
 	background: rgba(255, 255, 255, 0.5);
