@@ -221,6 +221,14 @@ main {
 	box-shadow: var(--box-shadow);
 }
 
+.links-container {
+	padding: 1rem;
+}
+
+.links-div {
+	display: inline-block;
+}
+
 </style>
 </head>
 <body>
@@ -246,22 +254,26 @@ main {
 
 {recent-posts}
 
-<h2><i class="fa-solid fa-wand-magic-sparkles fa-sm"></i> view other posts</h2>
+<div class="links-container">
+	<div class="links-container links-div">
+		<h2><i class="fa-solid fa-wand-magic-sparkles fa-sm"></i> view other posts</h2>
 
-<ul>
-	<li><a href="/random"><i class="fa-solid fa-dice"></i> view a random post</a></li>
-	<li><a href="/archive"><i class="fa-solid fa-box-archive"></i> view the posts archive</a></li>
-	<li><a href="/subscribe"><i class="fa-solid fa-rss"></i> subscribe via atom/rss/json</a></li>
-</ul>
+		<ul>
+			<li><a href="/random"><i class="fa-solid fa-dice"></i> view a random post</a></li>
+			<li><a href="/archive"><i class="fa-solid fa-box-archive"></i> view the posts archive</a></li>
+			<li><a href="/subscribe"><i class="fa-solid fa-rss"></i> subscribe via atom/rss/json</a></li>
+		</ul>
+	</div>
+	<div class="links-container links-div">
+		<h2><i class="fa-solid fa-magnifying-glass fa-sm"></i> search</h2>
 
-
-<h2><i class="fa-solid fa-magnifying-glass fa-sm"></i> search</h2>
-
-<form action="?" method="get">
-<label for="search"></label>
-<input type="text" name="search" placeholder="type your search term and hit enter">
-<input type="submit" hidden></button>
-</form>
+		<form action="?" method="get">
+		<label for="search"></label>
+		<input type="text" name="search" placeholder="type your search term and hit enter">
+		<input type="submit" hidden></button>
+		</form>
+	</div>
+</div>
 
 </main>
 
