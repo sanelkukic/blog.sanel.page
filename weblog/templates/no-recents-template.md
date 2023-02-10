@@ -37,6 +37,7 @@ Title: No Recents
 	--background: linear-gradient(313deg, #fecaca, #fde68a, #a7f3d0, #bfdbfe, #c7d2fe, #ddd6fe, #fbcfe8);
 	--link: #000000;
 	--accent: #000000;
+	--box-shadow: 0 0 transparent, 0 0 transparent, 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 @-webkit-keyframes colours {
@@ -208,6 +209,10 @@ input[type="text"] {
 
 .blocked-a {
     display: block;
+}
+
+main {
+	box-shadow: var(--box-shadow);
 }
 
 </style>
