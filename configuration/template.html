@@ -222,6 +222,14 @@ main {
 	display: inline-block;
 }
 
+#otherposts {
+	float: left;
+}
+
+#search {
+	float: right;
+}
+
 </style>
 </head>
 <body>
@@ -256,7 +264,7 @@ main {
 {recent-posts}
 
 <div>
-	<div class="links-div">
+	<div class="links-div" id="otherposts">
 		<h2><i class="fa-solid fa-wand-magic-sparkles fa-sm"></i> view other posts</h2>
 
 		<ul>
@@ -265,7 +273,7 @@ main {
 			<li><a href="/subscribe"><i class="fa-solid fa-rss"></i> subscribe via atom/rss/json</a></li>
 		</ul>
 	</div>
-	<div class="links-div">
+	<div class="links-div" id="search">
 		<h2><i class="fa-solid fa-magnifying-glass fa-sm"></i> search</h2>
 
 		<form action="?" method="get">
