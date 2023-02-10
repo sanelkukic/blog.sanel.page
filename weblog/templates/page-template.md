@@ -36,7 +36,7 @@ Title: Page Template
 	--foreground: #000000;
 	--background: linear-gradient(313deg, #fecaca, #fde68a, #a7f3d0, #bfdbfe, #c7d2fe, #ddd6fe, #fbcfe8);
 	--link: #000000;
-	--accent: #ffffff;
+	--accent: #000000;
 }
 
 @-webkit-keyframes colours {
@@ -134,7 +134,7 @@ a:active { color: var(--link); }
 
 .tag {
 	background: var(--accent);
-	color: var(--background) !important;
+	color: #ffffff !important;
 	padding: .3em .4em;
 	margin: .8em 0 0 .4em;
 	border-radius: .5em;
