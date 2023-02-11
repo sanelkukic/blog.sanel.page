@@ -265,8 +265,6 @@ main {
 	{body}
 </article>
 
-<hr>
-
 
 <div class="links-div">
 	<div class="links-item">

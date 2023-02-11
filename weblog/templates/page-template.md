@@ -265,7 +265,6 @@ main {
 	{body}
 </article>
 
-<hr>
 
 <h2><i class="fa-solid fa-clock fa-sm"></i> recent posts</h2>
 
