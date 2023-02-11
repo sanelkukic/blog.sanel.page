@@ -258,7 +258,6 @@ main {
 	{navigation}
 </header>
 
-<hr>
 
 <main>
 
