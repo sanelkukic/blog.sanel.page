@@ -54,7 +54,7 @@ Welcome! There's nothing currently here, but stay tuned, I'll be posting new con
 
 Recent posts count: 5
 Recent posts format: <<[
-<ul style="list-style: none;">
+<ul style="list-style: none; list-style-type: none;">
 [post:begin]<li style="padding-bottom: .5em;"><time class="time-rect">$relative_date</time>  <a href="$location">$title</a></li>[post:end]
 </ul>]>>
 
@@ -63,7 +63,7 @@ Recent posts format: <<[
 ;; ---------------------
 
 Post list format: <<[
-<ul style="list-style: none;">
+<ul style="list-style: none; list-style-type: none;">
 [post:begin]<li style="padding-bottom: .5em;"><time class="time-rect">$date</time>  <a href="$location">$title</a></li>[post:end]
 </ul>]>>
 
