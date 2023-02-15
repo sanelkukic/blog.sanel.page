@@ -33,6 +33,7 @@ Title: No Recents
 @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
 
 :root {
+	--highlight: #bd93f933;
 	--foreground: #000000;
 	--background: linear-gradient(313deg, #fecaca, #fde68a, #a7f3d0, #bfdbfe, #c7d2fe, #ddd6fe, #fbcfe8);
 	--link: #000000;
@@ -250,6 +251,7 @@ main {
 .time-rect {
 	border: 1px solid var(--accent);
 	padding: 0 5px;
+	background: var(--highlight);
 }
 
 </style>
