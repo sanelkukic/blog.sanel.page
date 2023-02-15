@@ -54,8 +54,8 @@ Welcome! There's nothing currently here, but stay tuned, I'll be posting new con
 
 Recent posts count: 5
 Recent posts format: <<[
-<ul>
-[post:begin]<li><a href="$location">$title</a> - $date</li>[post:end]
+<ul style="list-style: none;">
+[post:begin]<li><code onload="this.innerHTML = moment('$date').fromNow();"></code> <a href="$location">$title</a></li>[post:end]
 </ul>]>>
 
 
