@@ -247,6 +247,11 @@ main {
 	}
 }
 
+.time-rect {
+	border: 1px solid var(--accent);
+	padding: 0 5px;
+}
+
 </style>
 </head>
 <body>
