@@ -25,6 +25,11 @@ Title: Page Template
 
   gtag('config', 'G-TC25Q5BLWG');
 </script>
+<script>
+	function updateDate(event, date) {
+		event.target.innerHTML = moment(date).fromNow();
+	}
+</script>
 <style>
 @import url('https://static.omg.lol/type/font-honey.css');
 @import url('https://static.omg.lol/type/font-lato-regular.css');
