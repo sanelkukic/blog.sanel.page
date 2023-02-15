@@ -55,7 +55,7 @@ Welcome! There's nothing currently here, but stay tuned, I'll be posting new con
 Recent posts count: 5
 Recent posts format: <<[
 <ul style="list-style: none;">
-[post:begin]<li><code onload="updateDate(this, $date);"></code> <a href="$location">$title</a></li>[post:end]
+[post:begin]<li><time>$relative_date</time>  <a href="$location">$title</a></li>[post:end]
 </ul>]>>
 
 
@@ -63,8 +63,8 @@ Recent posts format: <<[
 ;; ---------------------
 
 Post list format: <<[
-<ul>
-[post:begin]<li><a href="$location">$title</a> - $date</li>[post:end]
+<ul style="list-style: none;">
+[post:begin]<li><time>$date</time>  <a href="$location">$title</a></li>[post:end]
 </ul>]>>
 
 

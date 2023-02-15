@@ -15,7 +15,6 @@ Title: Page Template
 <meta property="og:site_name" content="weblog.lol"/>
 <meta property="og:type" content="website"/>
 <script src="https://js.cache.lol/snowstorm.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" crossorigin="anonymous"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TC25Q5BLWG"></script>
 <script>
@@ -24,11 +23,6 @@ Title: Page Template
   gtag('js', new Date());
 
   gtag('config', 'G-TC25Q5BLWG');
-</script>
-<script>
-	function updateDate(event, date) {
-		event.target.innerHTML = moment(date).fromNow();
-	}
 </script>
 <style>
 @import url('https://static.omg.lol/type/font-honey.css');
