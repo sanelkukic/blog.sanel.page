@@ -17,3 +17,4 @@ Here you can view details about my personal setup!
 - 🎧 **Headphones**: AirPods 3rd generation, non-wireless charging case, custom engraving
 - ⌚️ **Watch**: Apple Watch Series 8, 41mm, Starlight Aluminum case, Summit White/Black Nike Sport wrist band, running watchOS 9.3.1
 - 💾 **Solid-State Drive**: [SanDisk Extreme Portable External SSD 2 TB](https://a.co/d/61rfm5Y)
+- 🎮 **Gaming Console**: [Nintendo Switch OLED Splatoon 3 Special Edition](https://a.co/d/ejDw5AR)
