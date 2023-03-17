@@ -67,6 +67,17 @@ Post list format: <<[
 [post:begin]<li style="padding-bottom: .5em;"><time class="time-rect">$date</time>  <a href="$location">$title</a></li>[post:end]
 </ul>]>>
 
+;; Tags Listing
+;; ---------------------
+Tag listing template: No Recents
+Tag listing order: descending
+Tag listing format: <<[
+<h2>Tags</h2>
+
+<ul style="list-style: none; list-style-type: none;">
+[tag:begin]<li style="padding-bottom: .5em;"><a href="$location" class="time-rect">$tag</a> ($count)</li>[tag:end]
+</ul>]>>
+
 
 ;; Search
 ;; ------
