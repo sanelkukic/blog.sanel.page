@@ -75,7 +75,7 @@ Tag listing format: <<[
 <h2>Tags</h2>
 
 <ul style="list-style: none; list-style-type: none;">
-[tag:begin]<li style="padding-bottom: .5em;"><a href="$location" class="time-rect">$tag</a> ($count)</li>[tag:end]
+[tag:begin]<li style="padding-bottom: .5em;"><a href="$location" class="time-rect" style="text-decoration: none;">$tag</a> ($count)</li>[tag:end]
 </ul>]>>
 
 
