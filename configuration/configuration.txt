@@ -6,7 +6,6 @@
 Weblog title: sanel's internet den
 Weblog description: a calm, safe place for me to share my thoughts
 Author: sanel
-Canonical domain: blog.sanel.page
 
 
 ;; General config stuff
@@ -14,7 +13,7 @@ Canonical domain: blog.sanel.page
 
 Landing page: welcome
 Separator:  · 
-Navigation: [<i class="fa-solid fa-globe"></i> website](https://sanel.page), [<i class="fa-solid fa-cart-shopping"></i> shop](https://shop.sanel.page), [<i class="fa-solid fa-clipboard"></i> pastebin](https://paste.sanel.page), [<i class="fa-solid fa-link"></i> links](https://r.sanel.page), [<i class="fa-solid fa-computer"></i> my setup](/my-setup)
+Navigation: [<i class="fa-solid fa-globe"></i> website](https://sanel.omg.lol), [<i class="fa-solid fa-cart-shopping"></i> shop](https://shop.sanel.omg.lol), [<i class="fa-solid fa-clipboard"></i> pastebin](https://sanel.paste.lol), [<i class="fa-solid fa-link"></i> links](https://sanel.url.lol), [<i class="fa-solid fa-computer"></i> my setup](/my-setup)
 Random post location: /random
 
 
