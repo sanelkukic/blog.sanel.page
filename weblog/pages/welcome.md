@@ -22,5 +22,3 @@ Here is where I occasionally post about _whatever_ is going on in my life at the
 - 💻 ~~(completely unrelated btw)~~ lastly, if you want to view my setup, you can visit the [setup](/my-setup) page!
 
 ⚠️ *disclaimer: I'm still working on this blog, so the design and layout of things may change at any point, and may even break completely. just please be patient with me ~~this is still very buggy lol~~*
-
-proven.lol/adcd81
