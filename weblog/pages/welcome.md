@@ -20,5 +20,3 @@ Here is where I occasionally post about _whatever_ is going on in my life at the
 - 🏡 you can click the <i class="fa-solid fa-house fa-sm"></i> **house icon** or the words **{weblog-title}** at the top to come back to this homepage at any time!
 - 📰 if you're familiar with rss, atom, or json, I have all of those feeds available for you to [subscribe](/subscribe) to!
 - 💻 ~~(completely unrelated btw)~~ lastly, if you want to view my setup, you can visit the [setup](/my-setup) page!
-
-⚠️ *disclaimer: I'm still working on this blog, so the design and layout of things may change at any point, and may even break completely. just please be patient with me ~~this is still very buggy lol~~*
